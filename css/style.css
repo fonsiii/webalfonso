@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px purple;
+}
+header {
+    background-color: purple;
+    padding: 16px;
+}
+header img {
+    width: 100%;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 80%;
+    float: right;
+    padding-bottom: 24px;
+}
+footer {
+    background-color: purple;
+    color:grey;
+    text-align: center;
+    font-size: 30px;
+    padding: 6px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    font-size: 22px;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    color: darkblue;
+    border: solid 1px darkblue;
+    border-radius: 10px;
+}
+nav li:hover {
+    background-color: darkblue;
+    color: cyan;
+}
+.azulo {
+    color: darkblue;
+}
+a {
+    text-decoration: none;
+}
+#home {
+    text-align: center;
+    color: purple;
+}
+#home img{
+    width: 70%;
+}
+.titulo{
+    text-align: center;
+    color:purple;
+}
+.rojo{
+    color: red;
+    font-size: 30px;
+}
+#tablas table{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+#tablas th{
+    background-color: darkblue;
+    color: cyan;
+}
+#tablas td{
+    background-color: cyan;
+    color: darkblue;
+}
+#parimpar tr:nth-child(odd) td {
+    background-color: darkgoldenrod;
+}
+#parimpar tr:nth-child(even) td{
+    background-color: darkmagenta;
+}
+#tablahorario{
+    width: 60%;
+    margin: 0 auto;
+}
+#tablahorario .SISI{
+    background-color: #EF8633;
+}
+#tablahorario .BDD{
+    background-color: #74A897;
+}
+#tablahorario .FOL{
+    background-color: #F0F0CC;
+}
+#tablahorario .ENDE{
+    background-color: #8081BB;
+}
+#tablahorario .PROG{
+    background-color: #A0FCFE;
+}
+#tablahorario .ING{
+    background-color: #A1FB8F;
+}
+#tablahorario .LMSG{
+    background-color: #53B666;
+}
+#tablahorario th{
+    color: #347D7E;
+}
+.etiqueta{
+    color: red;
+    font-size: 30px;
+}
+.text-derecha{
+    text-align: right;
+}
+.pequeño{
+    width: 300px;
+}
+#customo li{
+    list-style-type:lower-alpha;
+}
+#customd li{
+    list-style-type:lower-greek;
+}
+fieldset{
+    display: inline-block;
+    width: 400px;
+    border-radius: 30px;
+    border-color: purple;
+}
